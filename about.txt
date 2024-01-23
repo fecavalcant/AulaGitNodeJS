@@ -1,0 +1,23 @@
+pacotes que serao instalados na aula 16/01
+npm init -y
+1-express ==> npm install express
+2-nodemon ==> npm install --save-dev nodemon
+3-mysql2 ==> npm install mysql2
+4-cors ==> npm intall cors
+5-knex ==> npm install knex
+
+6- configurar o package json
+
+7- npm run dev ==>ligar o server
+
+8- configurar as pastas
+
+controllers
+databases
+routes
+
+rest CLIENT
+
+instalar o ejs ==> npm install ejs
+
+npm install method-override ==> possibilitar uma melhoria no codigo para acionar as rotas   

@@ -1,0 +1,45 @@
+###
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/alunos
+
+###
+POST http://localhost:3000/alunos/cadastro
+Content-Type: application/json
+
+{
+     "nome": "miguel",
+    "matricula": "98288818",
+    "email": "teste@email.com",
+    "turma":"B",
+    "serie": 1,
+    "sexo": "M",
+    "telefone": "(84) 90909090",
+    "endereco": "rua teste do teste",
+    "responsavel": "Teste"
+}
+
+###
+GET http://localhost:3000/alunos/listarAlunos
+
+###
+GET http://localhost:3000/alunos/buscarAluno/98288818
+
+###
+PUT http://localhost:3000/alunos/editarAluno/12345
+Content-Type: application/json
+
+{
+    "nome": "marcos",
+    "email": "teste@email.com",
+    "turma":"B",
+    "serie": 1,
+    "sexo": "M",
+    "telefone": "(84) 80808080",
+    "endereco": "rua teste do teste",
+    "responsavel": "Teste"
+}
+
+###
+DELETE http://localhost:3000/alunos/deletarAluno/95258515
