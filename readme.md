@@ -48,6 +48,6 @@ Este projeto está licenciado sob a Licença ISC.
 
 ## Autor
 
-[Nome do Autor]
+João felipe 
 
 Sinta-se à vontade para atualizar a descrição, informações do autor e adicionar quaisquer detalhes adicionais a este README conforme necessário para o seu projeto.
